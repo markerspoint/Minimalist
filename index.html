@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minimalism — The Art of Less</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="layout-grid">
+      <aside class="sidebar">
+        <div class="brand">
+          <i data-lucide="circle"></i>
+          <span>ESSENCE</span>
+        </div>
+        <div class="sidebar-line"></div>
+        <div class="scroll-indicator">SCROLL</div>
+      </aside>
+
+      <main class="content-area">
+        <nav class="top-nav">
+          <span class="mono-date">29.01.2026</span>
+          <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#philosophy">Methodology</a>
+          </div>
+        </nav>
+        <header class="hero">
+          <div class="hero-text">
+            <h1>The Discipline<br />of Less.</h1>
+            <p>
+              Perfection is achieved not when there is nothing more to add, but
+              when there is nothing left to take away.
+            </p>
+            <div class="hero-actions">
+              <a href="#philosophy" class="btn-primary">Read the Philosophy</a>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="composition-container">
+              <div class="shape-circle"></div>
+              <div class="shape-square"></div>
+              <div class="ui-card">
+                <div class="ui-header">
+                  <div class="dot"></div>
+                  <div class="dot"></div>
+                </div>
+                <div class="ui-body">
+                  <div class="ui-line" style="width: 60%"></div>
+                  <div class="ui-line" style="width: 80%"></div>
+                  <div class="ui-line" style="width: 40%"></div>
+                  <div class="ui-box"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <section class="principles" id="philosophy">
+          <div class="section-header">
+            <h2>Our Methodology</h2>
+            <div class="line"></div>
+          </div>
+
+          <div class="grid-container">
+            <div class="card card-large">
+              <span class="number">01</span>
+              <h3>Signal over Noise.</h3>
+              <p>
+                In a world of constant distraction, we choose to amplify what
+                matters. By removing the decorative, we reveal the structural.
+              </p>
+            </div>
+
+            <div class="card">
+              <span class="number">02</span>
+              <h3>Subtract.</h3>
+              <p>
+                Reduction is not empty. It's the method of unearthing value.
+              </p>
+            </div>
+
+            <div class="card">
+              <span class="number">03</span>
+              <h3>Space.</h3>
+              <p>
+                White space is an active design element, not a passive
+                background.
+              </p>
+            </div>
+
+            <div class="card card-wide">
+              <div class="card-content">
+                <span class="number">04</span>
+                <h3>Intentionality.</h3>
+                <p>
+                  Design is the rendering of intent. We build systems where form
+                  strictly follows function.
+                </p>
+              </div>
+              <i data-lucide="arrow-right" class="arrow-icon"></i>
+            </div>
+          </div>
+        </section>
+
+        <footer>
+          <p>
+            Designed with
+            <i data-lucide="heart" style="width: 12px; display: inline"></i> by
+            Mark Ian.
+          </p>
+        </footer>
+      </main>
+    </div>
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
+</html>
